@@ -277,6 +277,8 @@ opacity: 0.5;
 	float: left;
 	background: #fff;
 	border: 1px solid #eee;
+	overflow-x:hidden;
+	overflow-y:auto;  
 }
 .content-right{
 	width: 780px;
@@ -284,16 +286,16 @@ opacity: 0.5;
 	height: 700px;
 	float: right;
 }
-.content-left .menu{
+.content-left .nav{
 	height: 50px;
 	position: relative;
 }
-.content-left .menu ul{
+.content-left .nav ul{
 	position: absolute;
 	width: 301px;
 	left: -1px;
 }
-.content-left .menu li{
+.content-left .nav li{
 	float: left;
 	width: 97px;
 	height: 50px;
@@ -305,7 +307,7 @@ opacity: 0.5;
 	padding: 0 1px;
 	background: #f7f7f7;
 }
-.content-left .menu li.select{
+.content-left .nav li.select{
 	background: #fff;
 	border-bottom-color:#fff;
 	border-left: 1px solid #eee;
@@ -368,7 +370,7 @@ li a:hover{
 .mod li a:hover{
 	color:#000;
 }
-/*.fixednav{position:fixed;top:0px;left:0px;width:100%;}*/
+.pos{position:fixed;top:0px;}
 .content-left-ad{
 	background: url(../img/injod.jpg)no-repeat;
 	width: 300px;
@@ -406,7 +408,7 @@ li a:hover{
 	font-weight: 700; 
 	
 }
-.check::after{
+/*.check::after{
 				display: block;
 				content: "";
 				width: 30px;
@@ -416,7 +418,7 @@ li a:hover{
 				position: absolute;	
 				left:35px;
 				top:45px;	
-}
+}*/
 .menu-right li.check a{
 	color: #fff;
 }
